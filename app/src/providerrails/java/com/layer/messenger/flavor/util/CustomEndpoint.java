@@ -154,7 +154,7 @@ public class CustomEndpoint {
         return null;
     }
 
-    public static class Endpoint {
+    private static class Endpoint {
         final String mName;
         final String mAppId;
         final String mGcmSenderId;

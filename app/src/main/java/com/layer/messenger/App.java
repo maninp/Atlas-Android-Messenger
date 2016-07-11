@@ -114,6 +114,8 @@ public class App extends Application {
             public void onDeauthenticationSuccess(LayerClient client) {
                 getAuthenticationProvider().setCredentials(null);
                 callback.onDeauthenticationSuccess(client);
+                sLayerClient.close();
+                sLayerClient = null;
             }
 
             @Override
