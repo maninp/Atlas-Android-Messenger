@@ -3,12 +3,14 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.1.3'
     }
 }
 
 allprojects {
     repositories {
+        maven { url uri("/Users/amar/.gitRepos/layerhq/releases-android/releases")}
+        maven { url "/Users/amar/Layer/android/Atlas-Android/releases/" }
         maven { url "https://raw.githubusercontent.com/layerhq/releases-android/master/releases/" }
         jcenter()
     }
