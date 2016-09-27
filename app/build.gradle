@@ -34,10 +34,10 @@ dependencies {
     // All flavors
     compile project(':layer-atlas')
 
-    compile "com.google.firebase:firebase-messaging:9.4.0"
+    compile "com.google.firebase:firebase-messaging:9.6.1"
 
     // Flavor-specific dependencies
-    providerdemoCompile 'com.google.android.gms:play-services-vision:9.4.0'
+    providerdemoCompile 'com.google.android.gms:play-services-vision:9.6.1'
 }
 
 apply plugin: 'com.google.gms.google-services'
